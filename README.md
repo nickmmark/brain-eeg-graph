@@ -12,7 +12,7 @@ The system consists of
 * a [Force Trainer](https://www.amazon.com/Star-Wars-Science-Force-Trainer/dp/B001UZHASY) or [Mindflex](https://www.amazon.com/Mattel-P2639-Mindflex-Game/dp/B001UEUHCG) EEG module is connected to an arduino via an [optoisolator](https://en.wikipedia.org/wiki/Opto-isolator).
 * The arduino uses the [brain library](https://github.com/kitschpatrol/Brain) to extract EEG data as it listens to the tx/rx pins. 
 * the arduino displays the power spectrogram on the attached LCD display
-* when the EEG spectrum changes from delta wave predominant (suggesting slow wave sleep) to alpha wave predominant (suggesting either wakefullness or REM) the device emits a tone which can indicate to the user that they are dreaming
+* when the EEG spectrum changes from delta wave predominant (suggesting slow wave sleep) to alpha wave predominant (suggesting either wakefullness or REM) the device emits a tone (or better yet plays the song [“Non, je ne Regrette Rien”](https://www.youtube.com/watch?v=Q3Kvu6Kgp88)) which can indicate to the user that they are dreaming
 * the device also [logs data to an SD card](https://www.adafruit.com/product/1141) for review
 
 ![system overview](https://github.com/nickmmark/brain-eeg-graph/blob/master/figures/system_overview.png)
@@ -230,4 +230,4 @@ void loop(){
 - [Arduino library for reading Neurosky EEG brainwave data](https://github.com/kitschpatrol/Brain)
 - [Brain Hack](http://www.frontiernerds.com/brain-hack)
 - [NeuroSky EEG Module](http://neurosky.com/biosensors/eeg-sensor/)
-
+- [Lucid Scribe](https://store.neurosky.com/products/lucid-scribe) a similar project using code running on a PC
