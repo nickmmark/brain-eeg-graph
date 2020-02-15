@@ -13,6 +13,8 @@ After seeing the movie [_Inception_](https://www.imdb.com/title/tt1375666/), I w
 * the device also [logs data to an SD card](https://www.adafruit.com/product/1141) for review
 
 # details
+![wiring diagram for system](https://github.com/nickmmark/brain-eeg-graph/blob/master/figures/eeg%20wiring%20diagram.png)
+
 
 
 # version/to-do
