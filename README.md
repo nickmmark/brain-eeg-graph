@@ -13,8 +13,9 @@ After seeing the movie [_Inception_](https://www.imdb.com/title/tt1375666/), I w
 * the device also [logs data to an SD card](https://www.adafruit.com/product/1141) for review
 
 Definitions and interpretation of EEG power spectra:
+
 Phase | Frequency | Significance
------------- | ------------- | -------------
+----- | --------- | -------------
 Delta | 1-3 Hz | sleep
 Theta | 4-7 Hz | relaxed
 Alpha | 8-12 Hz | eyes closed
