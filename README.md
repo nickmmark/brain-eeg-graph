@@ -191,9 +191,15 @@ void loop(){
 }
 ```
 
-# version/to-do
-v1.0 - first version intended for realtime EEG analysis and display on LCD
-v2.x - subsequent versions adding tone generation and data logging
+# versioning
+- [x] v1.0 - first version intended for realtime EEG analysis and display on LCD
+- [ ] v2.x - subsequent versions adding 30 second epoch interpretation, tone generation, and data logging
+- [ ] v3.x - production version resolving bugs
+
+# known issues/to-do
+- [ ] bug: might need to smooth over longer interval
+- [ ] example video
+- [ ] 3d printed case for arduino/display/speaker
 
 # references
 - [Arduino library for reading Neurosky EEG brainwave data](https://github.com/kitschpatrol/Brain)
