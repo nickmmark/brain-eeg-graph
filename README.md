@@ -220,10 +220,14 @@ void loop(){
 - [ ] v3.x - production version resolving bugs
 
 ### known issues/to-do
-- [ ] bug: might need to smooth over longer interval
+- [ ] bug: might need to smooth over longer interval (5 seconds instead of 3)
+- [ ] bug: need to work on epoch determination and change detection module
 - [ ] example video
-- [ ] 3d printed case for arduino/display/speaker
+- [ ] design and build 3d printed case for arduino/display/speaker
+- [ ] idea for improved version: use a BT connection to an more sophisticated EEG monitor, such as the Muse Headband
 
 ### references
 - [Arduino library for reading Neurosky EEG brainwave data](https://github.com/kitschpatrol/Brain)
 - [Brain Hack](http://www.frontiernerds.com/brain-hack)
+- [NeuroSky EEG Module](http://neurosky.com/biosensors/eeg-sensor/)
+
