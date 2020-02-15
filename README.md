@@ -15,7 +15,7 @@ After seeing the movie [_Inception_](https://www.imdb.com/title/tt1375666/), I w
 # details
 ![wiring diagram for system](https://github.com/nickmmark/brain-eeg-graph/blob/master/figures/eeg%20wiring%20diagram.png)
 
-```arduino
+```c++
 // *
 // EEG analysis of Mindflex EEG data
 // v1.5 - with LCD bar graph output and rudimentary data smoothing
