@@ -2,7 +2,10 @@
 An arduino EEG interface designed to enable lucid dreaming
 
 ### background
-After seeing the movie [_Inception_](https://www.imdb.com/title/tt1375666/), I was inspired to try and build a [lucid dreaming](https://en.wikipedia.org/wiki/Lucid_dream) device. I decided to take advantage of low cost, commercially available EEG chips which were being incorporated into toys. Using these off-the-shelf devices it is possible to extract low quality EEG signals and perform FFT processing to determine the dominant power spectrum and use that to (indirectly) monitor sleep stage. By detecting the change in EEG pattern  it is theoretically possible to detect the onset of dreaming. The system plays an audible tone, which (with practice/training) can help the user recognize that they are dreaming, facilitating lucid dreaming.
+After seeing the movie [_Inception_](https://www.imdb.com/title/tt1375666/), I was inspired to try and build a [lucid dreaming](https://en.wikipedia.org/wiki/Lucid_dream) device. I decided to take advantage of low cost, commercially available EEG chips which were being incorporated into toys (such as the NeuroSky EEG module pictured below). Using these off-the-shelf devices it is possible to extract low quality EEG signals and perform FFT processing to determine the dominant power spectrum and use that to (indirectly) monitor sleep stage. By detecting the change in EEG pattern  it is theoretically possible to detect the onset of dreaming. The system plays an audible tone, which (with practice/training) can help the user recognize that they are dreaming, facilitating lucid dreaming.
+
+![Neurosky EEG module](http://neurosky.com/wp-content/uploads/2014/11/TGAM_medium1.jpg)
+
 
 ### system overview
 The system consists of 
