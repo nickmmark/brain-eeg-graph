@@ -18,6 +18,7 @@ The system consists of
 ![system overview](https://github.com/nickmmark/brain-eeg-graph/blob/master/figures/system_overview.png)
 
 Definitions and interpretation of EEG power spectra:
+
 Phase | Frequency | Significance
 ----- | --------- | -------------
 Delta | 1-3 Hz | sleep
